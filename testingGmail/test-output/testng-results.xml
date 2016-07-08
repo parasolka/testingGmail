@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="21208" started-at="2016-07-01T14:28:38Z" finished-at="2016-07-01T14:28:59Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="21208" started-at="2016-07-01T14:28:38Z" finished-at="2016-07-01T14:28:59Z">
+      <class name="epam.homework.testingGmail.GoogleTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:epam.homework.testingGmail.GoogleTest@d2cc05a]" name="setUp" is-config="true" duration-ms="4975" started-at="2016-07-01T17:28:38Z" finished-at="2016-07-01T17:28:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loadPage()[pri:1, instance:epam.homework.testingGmail.GoogleTest@d2cc05a]" name="loadPage" duration-ms="7578" started-at="2016-07-01T17:28:43Z" finished-at="2016-07-01T17:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method status="PASS" signature="markAsImportant()[pri:2, instance:epam.homework.testingGmail.GoogleTest@d2cc05a]" name="markAsImportant" duration-ms="2336" started-at="2016-07-01T17:28:50Z" finished-at="2016-07-01T17:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markAsImportant -->
+        <test-method status="PASS" signature="deleteMsg()[pri:3, instance:epam.homework.testingGmail.GoogleTest@d2cc05a]" name="deleteMsg" duration-ms="5654" started-at="2016-07-01T17:28:53Z" finished-at="2016-07-01T17:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMsg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:epam.homework.testingGmail.GoogleTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="635" started-at="2016-07-01T17:28:58Z" finished-at="2016-07-01T17:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- epam.homework.testingGmail.GoogleTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
